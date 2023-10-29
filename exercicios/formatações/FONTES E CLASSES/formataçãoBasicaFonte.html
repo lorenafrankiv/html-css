@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Curso de HTML 5</title>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap');
+        body{
+            background-color: rgba(212, 97, 151, 0.548);
+            font-family: 'Merriweather', serif;  
+        }
+        .textos{
+            text-align: center; 
+        }         
+        mark{
+            background-color: aquamarine;
+        }
+        .alinharComeco{
+            display: flex;
+            flex-direction: column;
+            align-items:start;
+            text-align: justify;
+        }
+        .borda{
+            background-color: lightgray;
+            border-color: black;
+            border-style: outset;
+            padding: 0px 15px;
+        }
+    </style>
+          
+</head>
+<body> 
+        <div >
+            <h1>Principais formatações</h1>
+            <h2>Negrito / Destaque</h2>
+            <p>Nessa frase, temos um <b>texto em destaque</b> usando a B</p>
+            <p>Nesta frase, tenho um <strong>texto em destaque</strong> usando Strong</p>
+            <h2>Italico / Ênfase</h2>
+            <p>Nessa frase, temos um <i>texto em italico</i> usando o I</p>
+            <p>Nessa frase, temos um <em>texto em italico</em> usando o EM</p>
+            <h2>Marcações</h2>
+            <p>Nessa frase, temos um <mark>texto marcado</mark> usando Mark</p>
+            <p>Outro <mark>texto marcado</mark> usando mark</p>
+            <h2>Texto deletado</h2>
+            <p>Podemos marcar <del>um texto como excluido</del> usando Del</p>
+            <h2>Texto Inserido</h2>
+            <p>Podemos marcar um <ins>texto como inserido</ins> para dar enfase usando Ins</p>
+            <h2>Codigo-fonte</h2>
+            <p>Esse comando serve para escrever codigos</p>
+        </div>
+        <div class="alinharComeco">
+            <pre class="borda">
+                <code >
+num = int(input('Digite um numero'))
+If num %2 == 0:
+    print(f'O numero {num} é PAR')
+else
+    print(f'O numero {num} é IMPAR)
+print('Fim do programa')
+                </code>
+            </pre>
+        </div>
+            <h2>Citações simples</h2>
+            <p>Como diria o pai de um amigo: <q>o computador é um burro muito rapido</q></p>
+            <h2>Citações completas</h2>
+            <p>Segundo Yuval Norah, em seu livro <em>Homo Deus</em>:</p>
+            <blockquote class="alinharComeco" style="width: 450px;" alig>
+                A partir de uma visão absolutamente original de nossa história, ele combina pesquisas de ponta e os mais recentes avanços científicos à sua conhecida capacidade de observar o passado de uma maneira inteiramente nova. Assim, descobrir os próximos passos da evolução humana será também redescobrir quem fomos e quais caminhos tomamos para chegar até aqui.
+            </blockquote>
+
+            <h2>LISTAS ORDENADAS</h2>
+            <ol> <!---types: 1 A a I i-->
+                <li>macarrão
+                <li>leite
+                <li>café
+                <li>alho
+            </ol>
+        
+            <h2>LISTAS NÃO ORDENADAS</h2>
+            <ul> <!---types: DISK CIRCLE E SQUARE-->
+                <li>item 1 
+                <li>item 2
+                <li>item 3
+            </ul>
+
+            <h2>Listas de definição</h2>
+            <dt>Objeto a ser definido usando DT</dt>
+            <dd>Definição do objeto utilizando DD</dd>
+            <dt>Outro objeto a ser definido</dt>
+            <dd>A definição dele também</dd>
+
+            <h2>LIGAÇÕES</h2>
+            <h3>Links externos</h3>
+            <p>Você pode acessar o google <a href="https://www.google.com/" target="_blank" rel="externos">clicando aqui</a></p>
+            <h3>Links Internos</h3>
+            <p>Você pode acessar a próxima pagina do meu site <a href="pag02.html" rel="next">clicando aqui</a></p>
+
+            <h2>Links para download</h2>
+            <p>Clique nos links abaixo para baixar arquivos</p>
+            <ul>
+                <li><a href="LIVROS/o pequeno principe.rar" download="o pequeno principe.rar" type="applicaticon/rar">O pequeno principe</a></li>
+            </ul>
+        
+            
+            
+            
+        
+
+        
+
+    
+   
+
+
+
+
+
+
+
+
+
+</body>
+</html>

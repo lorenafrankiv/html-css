@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias em HTML</title>
+</head>
+<body>
+    <h1>Imagens dinâmicas</h1>
+    <picture>
+        <source media="(max-width: 750px)" srcset="../base-de-imagens/foto.P.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="
+        ../base-de-imagens/foto.M.png " type="image/png">
+       <img src="../base-de-imagens/foto.g.png" alt="Imagem Flexivel">
+    </picture>
+    
+    <h1>Reproduzir audio</h1>
+    <audio preload="metadata" autoplay controls>
+        <source src="media/happy-mistake.mp3" type="audio/mpeg">
+        <source src="media/happy-mistake.ogg" type="audio/ogg">
+        <source src="media/happy-mistake.wav" type="audio/wav">
+    </audio>
+
+    <h2>Inserindo videos hospedados localmente</h2>
+    <video width="560" autoplay controls>
+        <source src="media/video-teste.mp4" type="video/mp4">
+        <source src="media/Video-Teste.webm" type="video/webm">   
+    </video>
+
+    <h1>Inserindo video do youtube</h1>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/FdE5G95B7Mg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+
+
+    
+</body>
+</html>
