@@ -2,7 +2,4 @@
  Curso de HTML e CSS3 do Cursoemvideo
 
 
- estou aprendendo a criar sites e agora vou gerenciar meus repositórios
-
-
-alguma coisa
+<a href="https://lorenafrankiv.github.io/html-css/exercicios/DESAFIO/DESAFIO10.html" target="_blank" >Exercutar o site Android </a>
